@@ -33,17 +33,14 @@ export function EnhancedCard3D({ tool, index }: EnhancedCard3DProps) {
   const [activeTab, setActiveTab] = useState("overview")
   
 const handleVisitTool = () => {
-  if (!isLoading) {
-    setIsLoading(true);
+  
 
     // 👇 Open the URL immediately — this ensures mobile support
     window.open(tool.url, '_blank');
 
     // Optional: reset the loading state after delay
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 1500);
-  }
+    
+  
 };
 
   return (
