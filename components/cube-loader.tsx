@@ -14,8 +14,11 @@ export function CubeLoader() {
         </div>
       </div>
       <div className="loader-content">
-        <h1 className="loader-name">Moatez Tilouch</h1>
-        <p className="loader-title">Frontend Developer & Tool Explorer</p>
+        <br/>
+        <br/>
+        <br/>
+        
+        <h1 className="loader-name">By Moatez Tilouch</h1>
         <div className="loader-dots">
           <div className="dot dot-1"></div>
           <div className="dot dot-2"></div>
